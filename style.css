@@ -15,12 +15,13 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1.3em;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: var(--back-grey);
-  font-family: Arial, sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  scroll-behavior: smooth;
 }
 header {
   background-color: var(--yale-blue);
@@ -33,11 +34,8 @@ header {
   align-content: center;
   justify-items: center;
 }
-
-.logo {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+.profile-photo {
+  grid-row: span 2;
 }
  ul {
    display: flex;
@@ -52,11 +50,20 @@ a {
   cursor: pointer;
 }
 
-.button-english {
- width: 70px;
- height: 30px;
- background-color:var(--blue-munsell) ;
+.spanish {
+ width: 60px;
+ height: 50px;
+ display: none;
+ cursor: pointer; 
 }
+.english {
+ width: 60px;
+ height: 50px; 
+ display: ;
+ cursor: pointer; 
+  
+}
+
 
 h2 {
   text-align: center;
